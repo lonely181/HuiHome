@@ -5,8 +5,12 @@ __pycache__/
 
 .idea
 
+/tmp
+
 # C extensions
 *.so
+
+.DS_Store
 
 # node
 /node_modules

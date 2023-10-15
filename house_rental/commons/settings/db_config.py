@@ -11,7 +11,6 @@ MYSQL_CONFIG = {
         f"{constants.APP_NAME}": {
             "engine": "tortoise.backends.mysql",
             "credentials": {
-                # "host": "43.138.220.206",
                 "host": "127.0.0.1",
                 "port": 3306,
                 "user": "root",
@@ -36,7 +35,7 @@ REDIS_CONFIG = {
         'host': '127.0.0.1',
         'port': 6379,
         'db': 0,
-        'password': '123456',
+        'password': "",
         'minsize': 1,
         'maxsize': 5,
         'timeout': 3
